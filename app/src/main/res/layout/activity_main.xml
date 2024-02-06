@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+   <RelativeLayout
+       android:layout_above="@+id/bottomBar"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="@color/white"
+       android:padding="6dp">
+
+      <SurfaceView
+          android:id="@+id/surfaceView"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent" />
+      <TextView
+          android:id = "@+id/scoreTV"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text = "0"
+          android:textSize="25sp"
+          android:textColor="#FFFFFF"
+          android:textStyle="bold"
+          android:layout_centerHorizontal="true"
+          android:layout_marginTop="10dp"/>
+   </RelativeLayout>
+
+   <LinearLayout
+       android:id="@+id/bottomBar"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_alignParentBottom="true"
+       android:background="@color/black"
+       android:gravity="center"
+       android:orientation="vertical"
+       android:paddingTop="10dp"
+       android:paddingBottom="10dp">
+
+
+      <androidx.appcompat.widget.AppCompatImageButton
+          android:id="@+id/topBtn"
+          android:layout_width="80dp"
+          android:layout_height="50dp"
+          android:background="@color/white"
+          android:src="@drawable/bottom_up" />
+
+      <LinearLayout
+
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:orientation="horizontal">
+
+
+         <androidx.appcompat.widget.AppCompatImageButton
+             android:id="@+id/leftBtn"
+             android:layout_width="80dp"
+             android:layout_height="50dp"
+             android:background="@color/white"
+             android:src="@drawable/arrow_left" />
+
+         <androidx.appcompat.widget.AppCompatImageButton
+             android:id="@+id/rightBtn"
+             android:layout_width="80dp"
+             android:layout_height="50dp"
+             android:background="@color/white"
+             android:src="@drawable/arrow_right" />
+
+      </LinearLayout>
+
+
+      <androidx.appcompat.widget.AppCompatImageButton
+          android:id="@+id/downBtn"
+          android:layout_width="80dp"
+          android:layout_height="50dp"
+          android:background="@color/white"
+          android:src="@drawable/bottom_down" />
+      <LinearLayout
+
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:orientation="vertical">
+
+         <Button
+             android:background="@color/white"
+             android:id="@+id/likebutton2"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Back" />
+
+
+      </LinearLayout>
+   </LinearLayout>
+
+
+</RelativeLayout>

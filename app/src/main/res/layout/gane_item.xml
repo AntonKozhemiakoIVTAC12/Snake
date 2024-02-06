@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.cardview.widget.CardView app:cardCornerRadius="4dp" android:elevation="8dp" android:layout_margin="5dp" android:layout_height="wrap_content" android:layout_width="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    -<LinearLayout android:layout_margin="3dp" android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="vertical">
+
+    <!--text view for our course name-->
+
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:text="@string/player_name" android:id="@+id/player_name_text"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:text="@string/points" android:id="@+id/points_text"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:text="@string/start_game" android:id="@+id/start_game_text"/>
+
+</LinearLayout>
+
+</androidx.cardview.widget.CardView>

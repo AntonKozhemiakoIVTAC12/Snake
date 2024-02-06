@@ -1,0 +1,25 @@
+<resources>
+
+    <string name="app_name">Snake</string>
+
+    <string name="win_message">You Lose))</string>
+
+    <string name="result">Result: %s</string>
+
+    <string name="result_name_edit_text_hint">Name</string>
+
+    <string name="save_to_db">Save</string>
+
+    <string name="show_db">Показать базу данных</string>
+
+    <string name="invalid_name">Where is your name?</string>
+
+    <string name="okay">ok</string>
+
+    <string name="points">Score: %s</string>
+
+    <string name="player_name">Name: %s</string>
+
+    <string name="start_game">Session time: %s</string>
+
+</resources>
